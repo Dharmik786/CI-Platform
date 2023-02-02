@@ -33,3 +33,6 @@
 .email{
     color: #414141;
 }
+.w-100 {
+    filter: brightness(0.7);
+}
