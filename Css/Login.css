@@ -23,6 +23,13 @@
     width: 100%;
     left: 0;
     bottom: 0;
+    background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5),
+    transparent 
+  );
 }
 .text1{
     /* font-weight: bolder; */
@@ -30,9 +37,23 @@
     color: #FFFFFF;
     
 }
+.text-left{
+    padding-left: 40px;
+}
 .email{
     color: #414141;
 }
-.w-100 {
+/* .w-100 {
     filter: brightness(0.7);
+} */
+
+img{
+    height: 100vh;
+}
+
+@media screen and (max-width:991px)
+{
+    img{
+        height: 60vh;
+    }
 }

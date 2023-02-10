@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .btn{
     border: 2px solid #F88634;
     width: 100%;
@@ -23,6 +27,13 @@
     width: 100%;
     left: 0;
     bottom: 0;
+    background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5),
+    transparent 
+  );
 
 }
 .text1{
@@ -52,6 +63,16 @@
         height: 110vh;
     }
 }
-.w-100 {
+/* .w-100 {
     filter: brightness(0.7);
+} */
+img{
+    height: 100vh;
+}
+
+@media screen and (max-width:991px)
+{
+    img{
+        height: 60vh;
+    }
 }
