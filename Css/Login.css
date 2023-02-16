@@ -50,10 +50,16 @@
 img{
     height: 100vh;
 }
+.rgt_div{
+    /* height: 100vh;; */
+}
 
 @media screen and (max-width:991px)
 {
     img{
         height: 60vh;
+    }
+    .rgt_div{
+        height: 75vh;
     }
 }
