@@ -1,17 +1,139 @@
 @media screen and (min-width:767px) {
-    .btn{
+
+    .btn,
+    #offcanvasWithBothOptions {
         display: none;
     }
-    .ABC{
+
+    /* .nav-logo {
         display: none;
-     }
-    
+    } */
 }
+
 @media screen and (max-width:767px) {
- .txt{
-    display: none;
- }
- .seconddiv{
-    display: none;
+    .first-nav {
+        display: none;
+    }
+
+    .user-profile {
+        display: none;
+    }
+
+    .second-div {
+        display: none;
+    }
 }
+
+.offcanvas1{
+    width: max-content!important;
 }
+.header {
+    border-bottom: 1px solid black;
+}
+
+.form-control {
+    border: none !important;
+}
+
+.div {
+    /* border: 1px solid black; */
+}
+
+.vertical {
+    border-left: 6px solid black;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+}
+
+.offcanvas {
+    width: fit-content;
+}
+
+.filter-item {
+    border-left: 1px solid black;
+}
+
+.header2 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: 1px solid black;
+}
+
+.filter-item-skill {
+    border-right: 1px solid black;
+}
+
+
+
+/* .hrbtn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+}*/
+
+/* 
+.theme-btn{
+    border-radius: 22px;
+    background-color: white;
+    border: white;  
+}
+.theme-div{
+    margin-top: -20px!important;
+} */
+
+
+.theme-btn {
+    border-radius: 22px;
+    background-color: white;
+    border: white;
+    z-index: 1;
+    margin-top: -3%;
+    width: 40%;
+    margin-left: 30%;
+}
+
+
+.rule {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+}
+
+hr {
+    flex: 1;
+    border: none;
+    height: 2px;
+    background: black;
+}
+
+.date-btn {
+    border-radius: 22px;
+    background-color: white;
+}
+
+.Apply-btn {
+    border: 2px solid #F88634;
+    width: auto;
+    height: auto;
+    border-radius: 24px;
+    background-color: white;
+    color: #F88634;
+
+}
+
+.card-img {
+    height: 33vh;
+}
+
+/*.theme {
+    border: 2px solid black; 
+    border-radius: 25px;
+    width: fit-content;
+    justify-items: center;
+    padding: 0.3rem;
+
+    margin-left: 33%;
+    background: white;
+    margin-top: -20px;
+}*/
